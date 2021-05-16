@@ -25,11 +25,15 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+
+
+
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 1000,
     reset: true
 });
 
@@ -37,8 +41,8 @@ const sr = ScrollReveal({
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.home__social-icon',{}); 
+sr.reveal('.home__social-icon',{}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
@@ -51,14 +55,14 @@ sr.reveal('.education_title',{delay: 400});
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skills__img',{delay: 600});
+sr.reveal('.skills__data',{}); 
+sr.reveal('.skills__img',{delay:400});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.work__img',{}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('.contact__input',{}); 
 
 
 
