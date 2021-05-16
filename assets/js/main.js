@@ -38,31 +38,31 @@ const sr = ScrollReveal({
 });
 
 /*SCROLL HOME*/
-sr.reveal('.home__title',{}); 
-sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{}); 
-sr.reveal('.home__social-icon',{}); 
+sr.reveal('.home__title'); 
+sr.reveal('.button'); 
+sr.reveal('.home__img'); 
+sr.reveal('.home__social-icon'); 
+sr.reveal('.home__social-icon'); 
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('#about__text',{delay: 400}); 
-sr.reveal('.education_text',{delay: 400}); 
-sr.reveal('.education_title',{delay: 400}); 
+sr.reveal('.about__img'); 
+sr.reveal('.about__subtitle'); 
+sr.reveal('#about__text'); 
+sr.reveal('.education_text'); 
+sr.reveal('.education_title'); 
 
 
 /*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle',{}); 
-sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{}); 
-sr.reveal('.skills__img',{delay:400});
+sr.reveal('.skills__subtitle'); 
+sr.reveal('.skills__text'); 
+sr.reveal('.skills__data'); 
+sr.reveal('.skills__img');
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{}); 
+sr.reveal('.work__img'); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{}); 
+sr.reveal('.contact__input'); 
 
 
 
