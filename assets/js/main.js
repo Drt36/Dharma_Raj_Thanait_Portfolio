@@ -61,7 +61,13 @@ sr.reveal('.skills__img');
 sr.reveal('.work__img'); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input'); 
+sr.reveal('.contact__form'); 
+
+/*SCROLL Thank you page*/
+sr.reveal('.display-3'); 
+sr.reveal('.lead'); 
+sr.reveal('.btn btn-success btn-sm'); 
+
 
 
 
