@@ -524,3 +524,6 @@ about_text{
   border-radius:0.5rem;
   opacity:90%;
 }
+#textareaid{
+  resize: none;
+}
